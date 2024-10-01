@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Layot</title>
+    <style>
+      header {
+        min-height: 55px;
+        position: sticky;
+        top: 0px;
+        box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+        background-color: white;
+      }
+      .header img {
+        float: left;
+        padding-top: 7px;
+        padding-left: 5px;
+        width: 100px;
+      }
+      .header span {
+        float: left;
+        margin-left: 155px;
+        color: black;
+        text-align: center;
+        padding: 17px;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        font-size: 20px;
+      }
+      aside {
+        position: fixed;
+        top: 55px;
+        background-color: white;
+        width: 250px;
+        height: 100vh;
+        box-shadow: 0 10px 5px 5px rgba(64, 60, 67, 0.16);
+      }
+      .aside h3 {
+        margin-left: 20px;
+      }
+      .aside ul {
+        margin-top: -10px;
+      }
+      main {
+        min-height: 100vh;
+        margin-left: 250px;
+        margin-top: -20px;
+        padding: 16px;
+      }
+      body {
+        margin: 0;
+      }
+
+      .menu a {
+        float: right;
+        color: rgba(127, 123, 123, 0.889);
+        text-align: center;
+        padding: 18px;
+        text-decoration: none;
+        font-size: 20px;
+      }
+
+      footer {
+        width: 100%;
+        bottom: 0px;
+        background-color: #000;
+        color: #fff;
+        position: absolute;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      .body_sec {
+        margin-left: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <img src="https://www.guvi.in/build/q-C-SntEbV.webp" alt="guvi logo" />
+      <span>"Learn coding in your native language"</span>
+      <nav style="display: inline" class="menu">
+        <div style="display: inline">
+          <a href="#signup">Signup</a>
+          <a href="#login">Login</a>
+          <a href="#resources">Resources</a>
+          <a href="#practice">Practice</a>
+          <a href="#live">LIVE Classes</a>
+          <a href="#cources">Cources</a>
+        </div>
+      </nav>
+    </header>
+    <aside class="aside">
+      <h3>Course Content:</h3>
+      <ul>
+        <li><a href="#">Module1 - Basics Javascript</a></li>
+        <li><a href="#">Module2 - HTML & CSS</a></li>
+        <li><a href="#">Module3 - Tailwind CSS</a></li>
+        <li><a href="#">Module4 - Advanced Javascript</a></li>
+        <li><a href="#">Module5 - React JS</a></li>
+        <li><a href="#">Module6 - MYSQL</a></li>
+        <li><a href="#">Module7 - MongoDB</a></li>
+        <li><a href="#">Module8 - Node Js</a></li>
+      </ul>
+    </aside>
+    <main class="body_sec">
+      <section id="Basics Javascript">
+        <h3>Basics Javascript:</h3>
+        <ul>
+          <li>Variables & Data Types</li>
+          <li>Operators - Arithmatic & Logical</li>
+          <li>Functions</li>
+          <li>Statement - if else</li>
+          <li>Looping - for, while & do while</li>
+          <li>Hoisting & scope</li>
+          <li>Arrays & Array Methods</li>
+          <li>Object and JSON iteration</li>
+        </ul>
+      </section>
+      <section id="HTML & CSS">
+        <h3>HTML & CSS:</h3>
+        <ul>
+          <h4>HTML:</h4>
+          <ul>
+            <li>Basic Tags</li>
+            <li>div Vs span</li>
+            <li>Semantic Tags</li>
+            <li>forms</li>
+            <li>Tables</li>
+            <li>Semantic Tags</li>
+          </ul>
+          <h4>CSS:</h4>
+          <ul>
+            <li>css selectors ( class vs id )</li>
+            <li>display property: inline, block</li>
+            <li>Pseudo-classes(link,visited,hover,active)</li>
+            <li>box model</li>
+            <li>Padding,margin</li>
+            <li>Vizualize boxmodel in realtime using chrome tools</li>
+            <li>CSS Position Properties</li>
+            <li>Colors - solid & linear gradients</li>
+            <li>CSS Flex Box</li>
+          </ul>
+        </ul>
+      </section>
+    </main>
+    <footer>Footer Section</footer>
+  </body>
+</html>
